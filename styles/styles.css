@@ -61,15 +61,13 @@ a,
   margin: 0;
   padding: 0;
 }
-
 .hero-image {
   flex: 1;
   max-width: 45%;
   height: auto;
   object-fit: contain;
 }
-
-button {
+.hero-button {
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: bolder;
@@ -132,6 +130,7 @@ button {
   margin: 0 auto;
   max-width: 800px;
   opacity: 80%;
+  margin-bottom: 10px;
 }
 .quote-author {
   display: flex;
@@ -139,6 +138,46 @@ button {
   margin-left: 45%;
   font-size: 22px;
   font-weight: bold;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  overflow: hidden;
+}
+
+.banner-container {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 170px;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.banner-main-text {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 25px;
+}
+.banner-secondary-text {
+  color: #f9faf8;
+  font-size: 20px;
+  opacity: 75%;
+}
+.banner-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bolder;
+  border: solid 2px #f9faf8;
+  border-radius: 10px;
+  padding: 0px 20px;
 }
 
 .footer {
