@@ -93,6 +93,7 @@ button {
   justify-content: center;
   align-content: center;
   gap: 60px;
+  margin-bottom: 50px;
 }
 .img-container {
   width: 150px;
@@ -115,6 +116,29 @@ button {
   border: 4px solid #3882f6;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+.quote-text {
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0 auto;
+  max-width: 800px;
+  opacity: 80%;
+}
+.quote-author {
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .footer {
